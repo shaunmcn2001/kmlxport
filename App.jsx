@@ -1,10 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import { Search, Layers, Download, Trash2, ZoomIn, Package } from 'lucide-react'
-import MapComponent from './components/MapComponent'
-import DataGrid from './components/DataGrid'
-import { fetchParcels } from './services/cadastreService'
-import { exportToKML, exportToShapefile } from './services/exportService'
-import './App.css'
+import MapComponent from './MapComponent'
+import DataGrid from './DataGrid'
+import { fetchParcels } from './cadastreService'
+import { exportToKML, exportToShapefile } from './exportService'
 
 const DEFAULT_CONFIG = {
   basemaps: [
