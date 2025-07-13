@@ -16,7 +16,6 @@
     "ag-grid-react": "^31.0.0",
     "ag-grid-community": "^31.0.0",
     "proj4": "^2.9.2",
-    "turf": "^3.0.14",
     "@turf/turf": "^6.5.0",
     "file-saver": "^2.0.5",
     "jszip": "^3.10.1",
